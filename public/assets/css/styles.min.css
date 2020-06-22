@@ -1,0 +1,56 @@
+.register .form-container {
+  display: table;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+}
+.register form {
+  border-radius: 10px;
+  display: table-cell;
+  width: 400px;
+  padding: 40px 0px;
+  color: #505e6c;
+}
+.register form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.register form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+}
+.register form .btn-primary {
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: 0 !important;
+}
+.register form .btn-primary:active,
+.register form .btn-primary:hover {
+  background: #eb3b60;
+}
+.register form .btn-primary:active {
+  transform: translateY(1px);
+}
+.register form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+  .features-icons {
+    display: none;
+  }
+  .call-to-action {
+    padding-top: 10px;
+    border-top: grey 1px solid;
+  }
+}
